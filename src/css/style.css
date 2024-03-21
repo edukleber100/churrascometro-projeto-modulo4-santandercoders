@@ -1,0 +1,122 @@
+.container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+/* Animação do background */
+.gradient {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    /*background: linear-gradient(45deg, #FFF5E0, #FF6969, #BB2525, #141E46 );*/
+    background: linear-gradient(45deg, #91adbd, #8d1fd6, #002b44 );
+    background-size: 300%, 300%;
+    animation: colors 15s ease infinite;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.container-blocos {
+    position: relative;
+    top: calc(20% + 200px); 
+    left: 52%;
+    transform: translateX(-50%);
+    width: 70%; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #6831044b;
+}
+
+.container-blocos h1{
+    color: white;
+}
+
+.container-blocos h3{
+    font-size: 20px;
+    color: #c72400;
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+.container h1{
+    font-size: 40px;
+    color: rgb(231, 224, 221);
+}
+
+.container p{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+
+.div-botoes button{
+    background: none;
+    border: none;
+    display: inline-block;
+    color: #8d4405;
+    padding: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.div-botoes button:hover {
+    color: white;
+    transition: .2s;
+}
+
+#botao-confirmar {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: .2s;
+}
+
+#botao-confirmar:hover{
+    background-color: #07970cc9;
+    transition: .2s;
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    } 
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
