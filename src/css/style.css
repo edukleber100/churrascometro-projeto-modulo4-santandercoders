@@ -1,3 +1,5 @@
+@import url('fonts.css');
+
 .container{
     position: absolute;
     top: 30%;
@@ -52,13 +54,15 @@
 }
 
 .container-blocos h1{
-    color: #FFFFFF;
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    font-family: 'brocats';
+    color: #cf47a7;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(255, 0, 221), 0 -10px 20px #ff8000, 0 -18px 40px #F00;
 }
 
 .container-blocos h3{
-    color: #12201a;
-    text-shadow: 0 1px 0 #04c068, 0 2px 0 #04c068, 0 3px 0 #04c068, 0 4px 0 #b9b9b9, 0 5px 0 #04c068, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    font-family: 'brocats';
+    color: #ca6fa7;
+    text-shadow: 0 1px 0 #000000, 0 2px 0 #04c068, 0 3px 0 #000000, 0 4px 0 #b9b9b9, 0 5px 0 #04c068, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 
 .container h1, p{
@@ -66,11 +70,13 @@
 }
 
 .container h1{
+    font-family: 'skincake';
     color: #FFFFFF;
     text-shadow: #bd2f2f 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
 }
 
 .container p{
+    font-family: 'Source Code Pro';
     color: white;
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 22px 30px rgba(0,0,0,0.9), 38px -37px 2px rgba(206,89,55,0);
 }
@@ -79,7 +85,7 @@
     background: none;
     border: none;
     display: inline-block;
-    color: #1d2700;
+    color: #a84ec4;
     padding: 0;
     cursor: pointer;
     transition: .2s;
@@ -95,7 +101,7 @@
     bottom: 20px; 
     left: 50%;
     transform: translateX(-50%);
-    background-color: #00f308;
+    background-color: #f3007a;
     color: white; 
     padding: 10px 20px; 
     border: none;
@@ -106,6 +112,7 @@
 
 #botao-confirmar:hover{
     background-color: #07970c;
+    border-radius: 50%;
     transition: .2s;
 }
 
