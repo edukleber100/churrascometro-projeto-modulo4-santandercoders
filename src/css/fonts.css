@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Source Code Pro;
+    src: url(/src/css/fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: skincake;
+    src: url(/src/css/fonts/Skincake.ttf);
+}
+
+@font-face {
+    font-family: brocats;
+    src: url(/src/css/fonts/Brocats.ttf);
+}
