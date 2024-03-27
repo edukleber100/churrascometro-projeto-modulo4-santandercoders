@@ -8,6 +8,11 @@ let contador_mulheres = 0;
 let contador_criancas = 0;
 let contador_adultos = 0;
 
+numero_homens.innerHTML = contador_homens;
+numero_mulheres.innerHTML = contador_mulheres;
+numero_criancas.innerHTML = contador_criancas;
+numero_adultos.innerHTML = contador_adultos;
+
 
 function iterar(id){
     
@@ -64,3 +69,5 @@ function desiterar(id){
 
     
 }
+
+
