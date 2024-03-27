@@ -71,3 +71,11 @@ function desiterar(id){
 }
 
 
+// Função para realizar o cálculo da quantidade de itens necessários para o churrasco
+function resultado(){
+    
+    //Cálculos
+    
+    //Redirecionamento para tela com os resultados
+    window.location.href = "resultado.html";
+}
