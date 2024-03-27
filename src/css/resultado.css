@@ -1,0 +1,54 @@
+@import url('fonts.css');
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Animação do background */
+.gradient {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(../midia/stardew-valley-bus-moewalls-com.mp4);
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+#convidados_qnt{
+    font-size: 30px;
+    color: red;
+}
+
+
+.container h1{
+    font-family: 'skincake';
+    color: #FFFFFF;
+    text-shadow: #bd2f2f 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+.container p{
+    font-family: 'Source Code Pro';
+    color: white;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 22px 30px rgba(0,0,0,0.9), 38px -37px 2px rgba(206,89,55,0);
+}
+
+
+
