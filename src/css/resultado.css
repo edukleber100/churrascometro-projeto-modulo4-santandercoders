@@ -2,13 +2,12 @@
 
 .container{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
 }
 
 #video-bg {
@@ -48,6 +47,44 @@
     font-family: 'Source Code Pro';
     color: white;
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 22px 30px rgba(0,0,0,0.9), 38px -37px 2px rgba(206,89,55,0);
+}
+
+/*Tabela*/
+
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #202020d2;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th{
+    font-size: 20px;
+    color: white;
+    border-bottom: 3px solid rgb(145, 173, 19);
+    padding: 10px;
+    text-align: left;
+}
+
+thead th:first-child {
+    width: 70%;
+}
+
+thead th:last-child {
+    width: 30%;
+}
+
+tbody td{
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border-bottom-style: dashed;
 }
 
 
