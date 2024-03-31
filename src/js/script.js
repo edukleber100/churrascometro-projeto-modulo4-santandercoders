@@ -5,19 +5,13 @@
     const numero_mulheres = document.getElementById('numero_mulheres');
     const numero_criancas = document.getElementById('numero_criancas');
     const numero_adultos = document.getElementById('numero_adultos');
-    const numero_convidados = document.getElementById('numeros_convidados');
+    
 
     let contador_homens = 0;
     let contador_mulheres = 0;
     let contador_criancas = 0;
     let contador_adultos = 0;
     let contador_convidados = 0;
-
-    numero_homens.innerHTML = contador_homens;
-    numero_mulheres.innerHTML = contador_mulheres;
-    numero_criancas.innerHTML = contador_criancas;
-    numero_adultos.innerHTML = contador_adultos;
-    numero_convidados.innerHTML = contador_convidados;
 
 
     function iterar(id){
@@ -81,13 +75,18 @@
     function resultado(){
         
         //Cálculos
-        JSON.stringify(meuStorage.setItem("Homens", contador_homens));
+        meuStorage.setItem("Homens", contador_homens);
         meuStorage.setItem("Mulheres", contador_mulheres);
         meuStorage.setItem("Criancas", contador_criancas);
         meuStorage.setItem("Adultos", contador_adultos);
-        //Redirecionamento para tela com os resultados
-        window.location.href = "resultado.html";
         
+        //Numero de convidados
+        contador_convidados = contador_homens + contador_mulheres + contador_criancas + contador_adultos;
+
+        meuStorage.setItem("Convidados", contador_convidados);
+ 
+        //Redirecionamento para tela com os resultados
+        window.location.href = "resultado.html";        
     }
 
     function voltar(){
@@ -100,6 +99,5 @@
         
     }
 
-    console.log(localStorage);
 
 

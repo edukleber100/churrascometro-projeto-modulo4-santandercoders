@@ -62,7 +62,14 @@
     </div>
 
     
-    
     <script src="./src/js/script.js"></script>
+    <script>
+        const numero_convidados = document.getElementById('numeros_convidados');
+
+        const convidados = meuStorage.getItem("Convidados")
+
+        numero_convidados.innerHTML = convidados;
+    </script>
+    
 </body>
 </html>
