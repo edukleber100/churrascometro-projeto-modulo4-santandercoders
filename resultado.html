@@ -24,35 +24,35 @@
                 <tbody>
                    <tr>
                     <td>Carne</td>
-                    <td>quantidade1</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_carne"></td> <!--ITERAR O CALCULO-->
                    </tr>
                    <tr>
                     <td>Pão de alho</td>
-                    <td>quantidade2</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_pao"></td> <!--ITERAR O CALCULO-->
                    </tr>
                    <tr>
                     <td>Refrigerante</td>
-                    <td>quantidade3</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_refri"></td> <!--ITERAR O CALCULO-->
                    </tr>
                    <tr>
                     <td>Água</td>
-                    <td>quantidade4</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_agua"></td> <!--ITERAR O CALCULO-->
                    </tr>
                    <tr>
                     <td>Cerveja</td>
-                    <td>quantidade5</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_cerveja"></td> <!--ITERAR O CALCULO-->
                    </tr>
                    <tr>
                     <td>Carvão</td>
-                    <td>quantidade6</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_carvao"></td> <!--ITERAR O CALCULO-->
                    </tr>
                    <tr>
                     <td>Sal</td>
-                    <td>quantidade7</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_sal"></td> <!--ITERAR O CALCULO-->
                    </tr>
                    <tr>
                     <td>Gelo</td>
-                    <td>quantidade8</td> <!--ITERAR O CALCULO-->
+                    <td id="quantidade_gelo"></td> <!--ITERAR O CALCULO-->
                    </tr>
                 </tbody>
             </table>
@@ -64,11 +64,17 @@
     
     <script src="./src/js/script.js"></script>
     <script>
+        //Números de convidados
         const numero_convidados = document.getElementById('numeros_convidados');
 
         const convidados = meuStorage.getItem("Convidados")
 
         numero_convidados.innerHTML = convidados;
+
+        //Cálculos de itens
+
+        
+
     </script>
     
 </body>
