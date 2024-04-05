@@ -33,10 +33,13 @@ function calculo(){
      calc_cerveja = Math.ceil(((adultos * 4 * 600) / 1000)),
 
      calc_carvao = qnt_convidados * 1,
+     calc_carvao = calc_carvao.toFixed(1),
 
      calc_sal = qnt_convidados * 0.04,
+     calc_sal = calc_sal.toFixed(1),
 
-     calc_gelo = (qnt_convidados / 10) * 5; 
+     calc_gelo = (qnt_convidados / 10) * 5,
+     calc_gelo = calc_gelo.toFixed(1)
 
     //Colocar o resultado na tela
 
