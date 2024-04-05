@@ -81,22 +81,12 @@
         meuStorage.setItem("Adultos", contador_adultos);
         
         //Numero de convidados
-        contador_convidados = contador_homens + contador_mulheres + contador_criancas + contador_adultos;
+        contador_convidados = contador_homens + contador_mulheres + contador_criancas;
 
         meuStorage.setItem("Convidados", contador_convidados);
  
         //Redirecionamento para tela com os resultados
         window.location.href = "resultado.html";        
-    }
-
-    function voltar(){
-        
-        //Cálculos
-        
-        //Redirecionamento para tela com os resultados
-        window.location.href = "index.html";
-
-        
     }
 
 

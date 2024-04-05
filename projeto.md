@@ -21,7 +21,7 @@ Requisitos
   - Carne
     - 0,4 KG por homem;
     - 0,32 KG por mulher;
-    - 0,20 KG por criança;
+    - 0,20 KG por criança; 
   - Pão de alho
     - 2 por adulto;
     - 1 por criança;
