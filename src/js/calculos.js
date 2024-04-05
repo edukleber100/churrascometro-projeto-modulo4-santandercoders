@@ -47,7 +47,7 @@ function calculo(){
     pao.textContent = calc_pao + " Unid.";
     refri.textContent = calc_refri + " Litros";
     agua.textContent = calc_agua + " Litros";
-    cerveja.textContent = calc_cerveja + " /600ml";
+    cerveja.textContent = calc_cerveja + " Latas /600ml";
     carvao.textContent = calc_carvao + " KG";
     sal.textContent = calc_sal + " KG";
     gelo.textContent = calc_gelo + " KG";
